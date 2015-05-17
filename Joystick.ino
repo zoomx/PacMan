@@ -12,7 +12,7 @@ uint8_t readJoystick()
   {
     return LEFT;
   } 
-  else if (joy>1000)
+  else if (joy>500)
   {
     return RIGHT;
   }
@@ -22,7 +22,7 @@ uint8_t readJoystick()
   {
     return DOWN; // reversed on iTead Joystick Shield
   } 
-  else if (joy>1000)
+  else if (joy>500)
   {
     return UP;
   }
