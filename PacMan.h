@@ -2,8 +2,8 @@
 #define PACMAN_H
 
 
-#define JOYSTICKXPIN 1
-#define JOYSTICKYPIN 0
+#define JOYSTICKXPIN 0
+#define JOYSTICKYPIN 1
 
 // Used for input/joystick return, and for sprite direction.
 // The numbers/order (0-3) must match the entries in the Ghost bitmap!
