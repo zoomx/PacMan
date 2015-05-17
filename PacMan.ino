@@ -116,7 +116,7 @@ void setup()
 {
   Serial.begin(9600);
 
-  TV.begin(NTSC, 120, 96);
+  TV.begin(PAL, 120, 96);
 
   TV.clear_screen();
 
@@ -124,6 +124,7 @@ void setup()
   //drawTileGrid();
   //drawWallTiles();
   //drawTileCenters();
+  delay(2000);
 }
 
 void loop()
